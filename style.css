@@ -50,7 +50,7 @@ button {
 }
 
 .logo-overlay img {
-    height: 130px;
+  height: 130px;
 }
 
 .image-credit {
@@ -65,12 +65,23 @@ button {
 }
 
 .right {
-  padding: 30px 48px 0px;
+  /* padding: 30px 48px 0px; */
   background-color: #f9fafb;
 }
 
+.right > * {
+  margin: 16px 30px;
+}
+
+.right > .top-content {
+  margin-top: 100px;
+}
+
 .form {
+  margin: 30px 0px;
+  padding: 30px;
   background-color: white;
+  box-shadow: 0px 4px 4px rgba(211, 211, 211, .5);
 }
 
 .right a {
